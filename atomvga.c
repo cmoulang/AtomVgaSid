@@ -1145,7 +1145,7 @@ uint16_t *do_text_vga80(scanvideo_scanline_buffer_t *buffer, uint relative_line_
     uint row = relative_line_num / 12;
     uint sub_row = relative_line_num % 12;
 
-    uint8_t *fd = fonts[fontno].fontdata + sub_row;
+    uint8_t *fd = fonts[FONT_CGA_THIN].fontdata + sub_row;
 
     if (row < 40)
     {

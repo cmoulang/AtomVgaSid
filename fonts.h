@@ -1209,6 +1209,14 @@ font_t fonts[] =
 #define FONT_6847       0
 #define FONT_GIME       1
 #define FONT_6847T1     2
+#define FONT_DALPHA     3
+#define FONT_BBC        4
+#define FONT_CGA_THICK  5
+#define FONT_CGA_THIN   6
+#define FONT_D200E      7
+#define FONT_SAA5050    8
+#define FONT_SPECTRUM   9
+
 
 #define DEFAULT_FONT    FONT_6847
 #define FONT_COUNT      (sizeof(fonts) / sizeof(font_t))
